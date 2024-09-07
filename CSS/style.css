@@ -1,0 +1,171 @@
+/* ----------------common css part start-------------- */
+a{
+    text-decoration: none;
+}
+/* ----------------common css part end-------------- */
+/* ----------------Menu bar page css part start-------------- */
+#login-page{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    padding-top: 34px;
+}
+.button{
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+}
+.button a{
+    width: 81px;
+    height: 38px;
+    border-radius: 18px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 38px;
+}
+.button a::after{
+    content: '';
+    width: 22px;
+    height: 2px;
+    background: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+.button a:hover{
+    background: #FFF;
+    color: #000;
+}
+/* ----------------Menu bar css part end-------------- */
+/* ----------------Login form css part start-------------- */
+.image{
+    margin-top: 181px;
+    margin-left: 92px;
+}
+.form{
+    display: flex;
+    justify-content: end;
+    margin-top: 169px;
+}
+.input-form{
+    width: 373px;
+}
+.form_text h1{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.form_text h1 span{
+    display: block;
+}
+.input-form input {
+    width: 373px;
+    padding: 18px 0px 17px 27px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #5E5E5E;
+}
+.second{
+    margin-top: 22px;
+}
+.input-form a{
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+}     
+.input-form button{
+    margin-top: 47px;
+    width: 373px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-size:18px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    border-style: none;
+}
+.input-form p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 22px;
+    text-align: center;
+    position: relative;
+    margin-top: 36px;
+}
+.input-form p::before{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.input-form p::after{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.options{
+    display: flex;
+    gap: 56px;
+    margin-top: 42px;
+}
+.options a{
+    width: 87px;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options a img{
+    width: 25px;
+    height: 25px;
+}
+.input-form h2{
+    display: flex;
+    margin-top: 52px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.input-form h2 a{
+    display: flex;
+    margin-left: 6px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+/* .input-form input::placeholder {
+    color: blue;
+} */
+
+/* ----------------Login form css part end-------------- */
